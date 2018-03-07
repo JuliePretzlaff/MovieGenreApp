@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #e5cdcd;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +22,53 @@ input,
 select,
 textarea {
     max-width: 280px;
+    margin-top: 5%;
 }
+h1#title{
+    text-align: center;
+ 
+}
+div.row.options {
+    text-align: center;
+    margin-top: 5%;
+}
+footer{
+    text-align:center;
+    font-size: 1rem;
+}
+.navbar-inverse {
+    background-color: #b77575 !important;
+    border-color: #b77575!important;
+}
+navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 0px!important;
+}
+a.navbar-brand {
+    color: white !important;
+}
+a {
+    color: white !important;
+}
+a:hover{
+    background-color: grey!important;
+}
+    a.btn.btn-default {
+        color: #b77575!important;
+        background-color: white!important;
+        font-weight:bold;
+
+    }
+        a.btn.btn-default:hover {
+            color: white !important;
+            background-color: #b77575 !important;
+            font-weight: bold;
+        }
+        li{
+            font-weight: bold;
+            color:antiquewhite;
+        }
+        li:hover{
+            font-weight: bold;
+            color: purple;
+        }
